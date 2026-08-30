@@ -4,6 +4,12 @@
 
 This repository contains the complete Minimum Publishable Prototype (MPP), reproducible analysis, manuscript sources, figures, tables, algorithms, and submission artifacts for a finite-cohort benchmark-validity audit of 417 SCONE-bench smart-contract incidents.
 
+Repository owner, draft-research attribution, and public-release authority:
+**Zubaer Mahmood Zubraj** ([`@zmzubraj`](https://github.com/zmzubraj)).
+The owner authorized this repository to remain publicly accessible on
+30 August 2026. Final manuscript affiliation, correspondence, contributor-role,
+and declaration fields remain separate pre-submission decisions.
+
 ## Main findings
 
 - All 417 cases existed at least 1 hour and 24 hours before the recorded incident.
@@ -67,6 +73,15 @@ The row-level upstream case envelopes are referenced by the provenance manifest 
 
 ## Current release status
 
-The analysis, manuscript, figures, tables, algorithms, PDF, DOCX, and submission bundles are mechanically complete. The research program intentionally remains at `INTAKE`, and the package is not yet authorized for public release or journal submission. Independent novelty challenge, independent clean-machine reproduction, author metadata and declarations, redistribution-rights review, license selection, and accountable human approval remain open. See [acceptance readiness](09-submission/acceptance-readiness.md) for the authoritative disposition.
+The analysis, manuscript, figures, tables, algorithms, PDF, DOCX, and submission bundles are mechanically complete. The research program intentionally remains at `INTAKE`; novelty is `UNRESOLVED`, solution viability is `ASSERTED_ONLY`, and acceptance readiness is `NOT_ASSESSABLE`. The repository is publicly released for inspection, but it is not authorized for journal submission. Independent novelty challenge, independent clean-machine reproduction, final author metadata and declarations, redistribution-rights review, license selection, and accountable human approval remain open. See [acceptance readiness](09-submission/acceptance-readiness.md) for the authoritative disposition.
 
-No license is granted by the presence of this private repository. A public-release license must be selected only after the recorded rights review and accountable-author approval.
+No repository-wide reuse licence is currently granted. Public visibility authorizes hosting and inspection, not unrestricted copying, redistribution, or relicensing. A reuse licence must be selected only after the recorded rights review and accountable-author approval.
+
+```mermaid
+flowchart LR
+    A[Public owner-authorized repository] --> B[Mechanically checked draft bundle]
+    B --> C[INTAKE]
+    C --> D{Independent novelty, reproduction, rights and author gates}
+    D -->|Open| E[Not submission ready]
+    D -->|Future verified pass| F[Accountable submission review]
+```
