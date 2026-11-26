@@ -4,6 +4,8 @@
 
 This repository contains the complete Minimum Publishable Prototype (MPP), reproducible analysis, manuscript sources, figures, tables, algorithms, and submission artifacts for a finite-cohort benchmark-validity audit of 417 SCONE-bench smart-contract incidents.
 
+Author: **Zubaer Mahmood Zubraj** (ORCID [0009-0004-3251-3385](https://orcid.org/0009-0004-3251-3385)).
+
 Repository owner, draft-research attribution, and public-release authority:
 **Zubaer Mahmood Zubraj** ([`@zmzubraj`](https://github.com/zmzubraj)).
 The owner authorized this repository to remain publicly accessible on
@@ -73,9 +75,9 @@ The row-level upstream case envelopes are referenced by the provenance manifest 
 
 ## Current release status
 
-The analysis, manuscript, figures, tables, algorithms, PDF, DOCX, and submission bundles are mechanically complete. The research program intentionally remains at `INTAKE`; novelty is `UNRESOLVED`, solution viability is `ASSERTED_ONLY`, and acceptance readiness is `NOT_ASSESSABLE`. The repository is publicly released for inspection, but it is not authorized for journal submission. Independent novelty challenge, independent clean-machine reproduction, final author metadata and declarations, redistribution-rights review, license selection, and accountable human approval remain open. See [acceptance readiness](09-submission/acceptance-readiness.md) for the authoritative disposition.
+The analysis, manuscript, figures, tables, algorithms, PDF, DOCX, and submission bundles are mechanically complete. The research program intentionally remains at `INTAKE`; novelty is `UNRESOLVED`, solution viability is `ASSERTED_ONLY`, and acceptance readiness is `NOT_ASSESSABLE`. The repository is publicly released for inspection, but it is not authorized for journal submission. Independent novelty challenge, independent clean-machine reproduction, final author metadata and declarations, and accountable human approval for submission remain open. See [acceptance readiness](09-submission/acceptance-readiness.md) for the authoritative disposition.
 
-No repository-wide reuse licence is currently granted. Public visibility authorizes hosting and inspection, not unrestricted copying, redistribution, or relicensing. A reuse licence must be selected only after the recorded rights review and accountable-author approval.
+The repository is public and released under the MIT License (see [Licence](#licence)). SCONE-bench incident data and provider responses keep their original terms.
 
 ```mermaid
 flowchart LR
@@ -85,3 +87,7 @@ flowchart LR
     D -->|Open| E[Not submission ready]
     D -->|Future verified pass| F[Accountable submission review]
 ```
+
+## Licence
+
+Licensed under the [MIT License](LICENSE), copyright (c) 2026 Zubaer Mahmood Zubraj. Third-party datasets, papers and tools referenced here keep their original terms and are not relicensed.
